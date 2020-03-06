@@ -11,13 +11,16 @@ int main(int argc, char *argv[]) {
     
     char c3[6] = "World";
     char c4[20];
+    // 문자열 복사
     strcpy(c4, c1);
     printf("strcpy : %s\n", c4);
 
+    // 문자열 붙이기
     strcat(c4, " ");
     strcat(c4, c3);
     printf("strcat : %s\n", c4);
 
+    // 문자열 길이 측정
     int len = strlen(c4);
     printf("strlen : %d\n", len);
 
