@@ -9,7 +9,7 @@
 #define FN4(a, b) \
     printf("FN4 call : "); \
     printf("a=" #a ", "); \
-    printf("b=" #b "\n"); \
+    printf("b=" #b "\n");
 
 int main(int argc, char *argv[]) {
 
